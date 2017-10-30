@@ -2,3 +2,19 @@
   max-width: 1200px;
   margin: auto;
   padding: 0 15px; }
+
+.content {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+img {
+  width: 100%;
+  height: auto; }

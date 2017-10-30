@@ -1,5 +1,4 @@
 .header {
-  position: fixed;
   height: 75px;
   width: 100%;
   background-color: #000;
@@ -28,6 +27,3 @@
         text-transform: uppercase; }
         .header .container .menu__ul__item .menu__ul__item__link:hover {
           color: #E8A11A; }
-
-.header-div-support {
-  height: 75px; }

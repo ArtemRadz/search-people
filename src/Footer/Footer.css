@@ -1,7 +1,5 @@
 .footer {
   padding: 15px 0px;
-  position: absolute;
-  bottom: 0px;
   background-color: #000;
   width: 100%;
   display: -webkit-box;
@@ -15,6 +13,8 @@
   .footer .logo-div {
     margin-bottom: 15px;
     text-align: center; }
+    .footer .logo-div .logo {
+      color: #fff; }
   .footer .menu__ul__item {
     display: inline-block;
     padding: 0 15px; }
