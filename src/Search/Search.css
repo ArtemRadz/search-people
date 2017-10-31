@@ -1,11 +1,30 @@
 .searchBar {
   text-align: center;
   padding: 30px 0; }
-  .searchBar .search__label {
+  .searchBar div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .searchBar select, .searchBar input {
+    width: 200px;
+    height: 30px; }
+  .searchBar .searchBar__header {
     font-size: 20px;
-    padding-bottom: 15px;
-    display: block; }
-  .searchBar .search__input {
-    display: block;
+    margin-bottom: 15px; }
+  .searchBar .searchBar__label {
+    font-size: 16px;
+    margin-right: 10px; }
+  .searchBar .searchBar__inputDiv__input {
     outline: none;
     padding: 5px; }
+  .searchBar .searchBar__inputDiv {
+    margin-bottom: 15px; }
